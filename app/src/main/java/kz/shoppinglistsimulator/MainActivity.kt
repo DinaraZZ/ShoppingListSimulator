@@ -61,49 +61,49 @@ class MainActivity : AppCompatActivity() {
 
     private fun initializeLiseners(){
         buttonCheck?.setOnClickListener {
-            if (checkBox1?.isChecked() == true) { checkBox1?.setTextColor(Color.RED) }
+            if (checkBox1?.isChecked() == false) { checkBox1?.setTextColor(Color.RED) }
             else { checkBox1?.setTextColor(Color.BLACK) }
 
-            if (checkBox2?.isChecked() == true) { checkBox2?.setTextColor(Color.RED) }
+            if (checkBox2?.isChecked() == false) { checkBox2?.setTextColor(Color.RED) }
             else { checkBox2?.setTextColor(Color.BLACK) }
 
-            if (checkBox3?.isChecked() == true) { checkBox3?.setTextColor(Color.RED) }
+            if (checkBox3?.isChecked() == false) { checkBox3?.setTextColor(Color.RED) }
             else { checkBox3?.setTextColor(Color.BLACK) }
 
-            if (checkBox4?.isChecked() == true) { checkBox4?.setTextColor(Color.RED) }
+            if (checkBox4?.isChecked() == false) { checkBox4?.setTextColor(Color.RED) }
             else { checkBox4?.setTextColor(Color.BLACK) }
 
-            if (checkBox5?.isChecked() == true) { checkBox5?.setTextColor(Color.RED) }
+            if (checkBox5?.isChecked() == false) { checkBox5?.setTextColor(Color.RED) }
             else { checkBox5?.setTextColor(Color.BLACK) }
 
-            if (checkBox6?.isChecked() == true) { checkBox6?.setTextColor(Color.RED) }
+            if (checkBox6?.isChecked() == false) { checkBox6?.setTextColor(Color.RED) }
             else { checkBox6?.setTextColor(Color.BLACK) }
 
-            if (checkBox7?.isChecked() == true) { checkBox7?.setTextColor(Color.RED) }
+            if (checkBox7?.isChecked() == false) { checkBox7?.setTextColor(Color.RED) }
             else { checkBox7?.setTextColor(Color.BLACK) }
 
-            if (checkBox8?.isChecked() == true) { checkBox8?.setTextColor(Color.RED) }
+            if (checkBox8?.isChecked() == false) { checkBox8?.setTextColor(Color.RED) }
             else { checkBox8?.setTextColor(Color.BLACK) }
 
-            if (checkBox9?.isChecked() == true) { checkBox9?.setTextColor(Color.RED) }
+            if (checkBox9?.isChecked() == false) { checkBox9?.setTextColor(Color.RED) }
             else { checkBox9?.setTextColor(Color.BLACK) }
 
-            if (checkBox10?.isChecked() == true) { checkBox10?.setTextColor(Color.RED) }
+            if (checkBox10?.isChecked() == false) { checkBox10?.setTextColor(Color.RED) }
             else { checkBox10?.setTextColor(Color.BLACK) }
 
-            if (checkBox11?.isChecked() == true) { checkBox11?.setTextColor(Color.RED) }
+            if (checkBox11?.isChecked() == false) { checkBox11?.setTextColor(Color.RED) }
             else { checkBox11?.setTextColor(Color.BLACK) }
 
-            if (checkBox12?.isChecked() == true) { checkBox12?.setTextColor(Color.RED) }
+            if (checkBox12?.isChecked() == false) { checkBox12?.setTextColor(Color.RED) }
             else { checkBox12?.setTextColor(Color.BLACK) }
 
-            if (checkBox13?.isChecked() == true) { checkBox13?.setTextColor(Color.RED) }
+            if (checkBox13?.isChecked() == false) { checkBox13?.setTextColor(Color.RED) }
             else { checkBox13?.setTextColor(Color.BLACK) }
 
-            if (checkBox14?.isChecked() == true) { checkBox14?.setTextColor(Color.RED) }
+            if (checkBox14?.isChecked() == false) { checkBox14?.setTextColor(Color.RED) }
             else { checkBox14?.setTextColor(Color.BLACK) }
 
-            if (checkBox15?.isChecked() == true) { checkBox15?.setTextColor(Color.RED) }
+            if (checkBox15?.isChecked() == false) { checkBox15?.setTextColor(Color.RED) }
             else { checkBox15?.setTextColor(Color.BLACK) }
         }
     }
